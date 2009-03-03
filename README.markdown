@@ -37,7 +37,7 @@ To hide Visor, you can either:
 
     git clone git://github.com/cglee/visor.git
     cd visor
-    rake release version=1.8
+    rake release version=1.9
     rake install
 
 Feel free to fork and contribute.

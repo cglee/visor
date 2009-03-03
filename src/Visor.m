@@ -219,7 +219,7 @@ void displayReconfigurationCallback(CGDirectDisplayID display, CGDisplayChangeSu
     NSScreen* screen=cachedScreen;
     NSRect screenRect=[screen frame];
     NSRect frame=[window frame];
-    frame.size.width=screenRect.size.width/2; // make it the full screen width
+    frame.size.width=screenRect.size.width/2; // make it half screen width
     //frame.origin.x+=NSMidX(screenRect)-NSMidX(frame); // center horizontally
 		frame.origin.x=0; // align to left
     [window setFrame:frame display:NO];
