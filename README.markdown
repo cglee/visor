@@ -4,7 +4,7 @@ Visor for OSX provides a systemwide terminal window accessible via a hot-key, mu
 
 ![screenshot](http://github.com/darwin/visor/blob/master/support/screenshot.png?raw=true)
 
-## **[Download Visor 1.7 (precompiled binary)](http://dl.getdropbox.com/u/559047/Visor/Visor-1.7-ae75d3.zip)**
+## **[Download Visor 1.8 (precompiled binary)](http://s3.amazonaws.com/cglee/Visor-1.8-afde82.zip)**
 Tested on OSX 10.5.6 Leopard
 
 ## Installation
@@ -35,7 +35,7 @@ To hide Visor, you can either:
 
 ### Installation
 
-    git clone git://github.com/darwin/visor.git
+    git clone git://github.com/cglee/visor.git
     cd visor
     rake release version=1.8
     rake install
@@ -57,7 +57,7 @@ Feel free to fork and contribute.
 > Go to Terminal.app preferences -> Window -> Rows
 
 #### How can I change a width of Visor?
-> Not possible. Visor always takes whole screen width.
+> Not possible. Visor always takes half the screen width.
 
 #### Is it possible to show Visor only on secondary monitor?
 > Go to Visor preferences -> Screen
@@ -78,7 +78,8 @@ Feel free to fork and contribute.
 
 
 ## History
-
+* **v1.8** (03.02.2009)
+  * [[cglee][cglee]] Visor width changed to 1/2 screen width
 * **v1.7** (12.02.2009)
   * [[Darwin][darwin]] Visor appears on every space by default. You may disable it in Visor preferences.
   * [[Darwin][darwin]] Visor is correctly hidden in fullscreen mode.
